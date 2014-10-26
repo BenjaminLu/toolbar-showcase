@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000">
+
+    <LinearLayout
+        android:id="@+id/box_evernote_button"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/drawerItemTextView"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/drawerItemTextView"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:background="@drawable/ring"
+            android:gravity="center"
+            android:text="3000"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_weight="3"
+            />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/evernote_botton1row"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#1e1f1a">
+
+                        <View
+                            android:layout_width="35dp"
+                            android:layout_height="5dp"
+                            android:background="@drawable/green_radient_stroke_color"/>
+
+                        <ImageButton
+                            android:id="@+id/bonus_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginRight="1dp"
+                            android:background="@drawable/button_click"
+                            android:scaleType="centerInside"
+                            android:layout_gravity="left|center_vertical"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Bouns"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#757573"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1000"
+                            android:textSize="25sp"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#ffffff"
+                            android:layout_gravity="center_horizontal"/>
+
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#1e1f1a">
+
+                        <View
+                            android:layout_width="35dp"
+                            android:layout_height="5dp"
+                            android:background="@drawable/green_radient_stroke_color"/>
+
+                        <ImageButton
+                            android:id="@+id/withdrawal_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginRight="1dp"
+                            android:background="@drawable/button_click"
+                            android:scaleType="centerInside"
+                            android:layout_gravity="left|center_vertical"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Withdrawal"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#757573"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1000"
+                            android:textSize="25sp"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#ff6b66"
+                            android:layout_gravity="center_horizontal"/>
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/evernote_botton1row2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#1e1f1a">
+
+                        <View
+                            android:layout_width="35dp"
+                            android:layout_height="5dp"
+                            android:background="@drawable/green_radient_stroke_color"/>
+
+                        <ImageButton
+                            android:id="@+id/equity_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginRight="1dp"
+                            android:background="@drawable/button_click"
+                            android:scaleType="centerInside"
+                            android:layout_gravity="left|center_vertical"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Equity"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#757573"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1000"
+                            android:textSize="25sp"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#ffffff"
+                            android:layout_gravity="center_horizontal"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:background="#1e1f1a">
+
+                        <View
+                            android:layout_width="35dp"
+                            android:layout_height="5dp"
+                            android:background="@drawable/green_radient_stroke_color"/>
+
+                        <ImageButton
+                            android:id="@+id/amt_can_withdraw_btn"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginRight="1dp"
+                            android:background="@drawable/button_click"
+                            android:scaleType="centerInside"
+                            android:layout_gravity="left|center_vertical"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Amount can withdraw"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#757573"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$1000"
+                            android:textSize="25sp"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#fc7e00"
+                            android:layout_gravity="center_horizontal"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

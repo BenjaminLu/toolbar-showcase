@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MyActivity">
+    <item
+        android:id="@+id/phone"
+        android:title="@string/phone"
+        android:icon="@drawable/phone"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/computer"
+        android:title="@string/computer"
+        android:icon="@drawable/computer"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/camera"
+        android:title="@string/camera"
+        android:icon="@drawable/camera"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/email"
+        android:title="@string/email"
+        android:icon="@drawable/email"
+        app:showAsAction="ifRoom"/>
+</menu>

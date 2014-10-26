@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Toolbar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="phone">Phone</string>
+    <string name="computer">Computer</string>
+    <string name="gamepad">Gamepad</string>
+    <string name="camera">Camera</string>
+    <string name="video">Video</string>
+    <string name="email">EMail</string>
+    <string name="sign_in_title">Login to your system and\n enter your trading\n account and password</string>
+    <string name="Next"><u>Next</u></string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <color name="colorPrimary">#ff303030</color>
+</resources>
