@@ -109,8 +109,6 @@ public class MyActivity extends ActionBarActivity
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setHomeButtonEnabled(true);
 
-        actionBar.setBackgroundDrawable(getResources().getDrawable(R.drawable.actionbar));
-        actionBar.setSplitBackgroundDrawable(getResources().getDrawable(R.drawable.actionbar));
     }
 
     @Override

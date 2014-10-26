@@ -15,7 +15,8 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/drawerItemTextView"
         android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="#ffffff">
 
         <TextView
             android:id="@+id/drawerItemTextView"
@@ -24,7 +25,7 @@
             android:background="@drawable/ring"
             android:gravity="center"
             android:text="3000"
-            android:textColor="#FFFFFF"
+            android:textColor="#13B4FE"
             android:textSize="30sp"
             android:layout_weight="3"
             />
@@ -52,7 +53,7 @@
                         android:layout_marginRight="1dp"
                         android:layout_weight="1"
                         android:clickable="true"
-                        android:background="#1e1f1a">
+                        android:background="#EEE">
 
                         <View
                             android:layout_width="35dp"
@@ -71,21 +72,22 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Total Bouns"
-                            android:textSize="15sp"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginLeft="10dp"
-                            android:textColor="#757573"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:text="$1000"
                             android:textSize="25sp"
                             android:layout_marginTop="40dp"
                             android:layout_marginLeft="10dp"
-                            android:textColor="#ffffff"
+                            android:textColor="#ffeccb71"
                             android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Bouns"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#ff000000"
+                            android:layout_gravity="center_horizontal|top"/>
 
 
                     </FrameLayout>
@@ -96,7 +98,7 @@
                         android:layout_marginRight="1dp"
                         android:layout_weight="1"
                         android:clickable="true"
-                        android:background="#1e1f1a">
+                        android:background="#EEE">
 
                         <View
                             android:layout_width="35dp"
@@ -115,21 +117,22 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Withdrawal"
-                            android:textSize="15sp"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginLeft="10dp"
-                            android:textColor="#757573"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:text="$1000"
                             android:textSize="25sp"
                             android:layout_marginTop="40dp"
                             android:layout_marginLeft="10dp"
                             android:textColor="#ff6b66"
                             android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Withdrawal"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#ff000000"
+                            android:layout_gravity="center_horizontal|top"/>
 
                     </FrameLayout>
 
@@ -149,7 +152,7 @@
                         android:layout_marginRight="1dp"
                         android:layout_weight="1"
                         android:clickable="true"
-                        android:background="#1e1f1a">
+                        android:background="#EEE">
 
                         <View
                             android:layout_width="35dp"
@@ -168,21 +171,22 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Equity"
-                            android:textSize="15sp"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginLeft="10dp"
-                            android:textColor="#757573"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:text="$1000"
                             android:textSize="25sp"
                             android:layout_marginTop="40dp"
                             android:layout_marginLeft="10dp"
-                            android:textColor="#ffffff"
+                            android:textColor="#ffeccb71"
                             android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Equity"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#ff000000"
+                            android:layout_gravity="center_horizontal|top"/>
 
                     </FrameLayout>
 
@@ -192,7 +196,7 @@
                         android:layout_marginRight="1dp"
                         android:layout_weight="1"
                         android:clickable="true"
-                        android:background="#1e1f1a">
+                        android:background="#EEE">
 
                         <View
                             android:layout_width="35dp"
@@ -211,21 +215,22 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Amount can withdraw"
-                            android:textSize="15sp"
-                            android:layout_marginTop="15dp"
-                            android:layout_marginLeft="10dp"
-                            android:textColor="#757573"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:text="$1000"
                             android:textSize="25sp"
                             android:layout_marginTop="40dp"
                             android:layout_marginLeft="10dp"
                             android:textColor="#fc7e00"
                             android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Amount can withdraw"
+                            android:textSize="15sp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#ff000000"
+                            android:layout_gravity="center_horizontal|top"/>
 
                     </FrameLayout>
 

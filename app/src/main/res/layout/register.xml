@@ -14,18 +14,21 @@
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            >
+            android:background="#FFF">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:drawableLeft="@drawable/phone"
-                android:drawablePadding="5dp"
-                android:padding="10dp"
                 android:text="Member ID"
-                android:textColor="#FFFFFF"
+                android:textColor="#13B4FE"
                 android:textSize="25sp"
-                android:layout_gravity="center_horizontal"/>
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
 
             <EditText
                 android:id="@+id/etUserName"
@@ -37,13 +40,18 @@
                 android:hint="User Name"
                 android:textColorHint="#757573"
                 android:inputType="text"
-                android:textColor="#ff71db00"
+                android:textColor="#0E87BF"
                 android:textSize="20sp"
                 android:padding="10dp"
                 android:textIsSelectable="false"
                 android:theme="@style/Base.Widget.AppCompat.EditText"
-                android:minHeight="50dp"/>
+                android:minHeight="50dp"
+                />
 
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
             <EditText
                 android:id="@+id/etPass"
                 android:layout_width="match_parent"
@@ -54,23 +62,33 @@
                 android:hint="Password"
                 android:password="true"
                 android:textColorHint="#757573"
-                android:textColor="#ff71db00"
+                android:textColor="#0E87BF"
                 android:textSize="20sp"
                 android:padding="10dp"
                 android:textIsSelectable="false"
                 android:theme="@style/Base.Widget.AppCompat.EditText"
                 android:minHeight="50dp"/>
 
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:drawableLeft="@drawable/video"
-                android:drawablePadding="5dp"
-                android:padding="10dp"
-                android:text="Member Deatails"
-                android:textColor="#FFFFFF"
+                android:text="Member Details"
+                android:textColor="#13B4FE"
                 android:textSize="25sp"
-                android:layout_gravity="center_horizontal"/>
+                android:gravity="center"
+                android:padding="10dp"
+                android:id="@+id/textView"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
 
             <EditText
                 android:id="@+id/etName"
@@ -80,14 +98,20 @@
                 android:drawableLeft="@drawable/phone"
                 android:drawablePadding="15dp"
                 android:hint="Name"
-                android:textColor="#71db00"
+                android:textColor="#0E87BF"
                 android:textColorHint="#757573"
                 android:inputType="text"
                 android:textSize="20sp"
                 android:padding="10dp"
                 android:textIsSelectable="false"
                 android:theme="@style/Base.Widget.AppCompat.EditText"
-                android:minHeight="50dp"/>
+                android:minHeight="50dp"
+                />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
 
             <EditText
                 android:id="@+id/etBirth"
@@ -97,7 +121,7 @@
                 android:drawableLeft="@drawable/computer"
                 android:drawablePadding="15dp"
                 android:hint="Date of Birth"
-                android:textColor="#71db00"
+                android:textColor="#0E87BF"
                 android:textColorHint="#757573"
                 android:inputType="date"
                 android:textSize="20sp"
@@ -105,6 +129,11 @@
                 android:textIsSelectable="false"
                 android:theme="@style/Base.Widget.AppCompat.EditText"
                 android:minHeight="50dp"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
 
             <EditText
                 android:id="@+id/etPassport"
@@ -114,7 +143,7 @@
                 android:drawableLeft="@drawable/computer"
                 android:drawablePadding="15dp"
                 android:hint="Passport number"
-                android:textColor="#71db00"
+                android:textColor="#0E87BF"
                 android:textColorHint="#757573"
                 android:inputType="number"
                 android:textSize="20sp"
@@ -122,6 +151,11 @@
                 android:textIsSelectable="false"
                 android:theme="@style/Base.Widget.AppCompat.EditText"
                 android:minHeight="50dp"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
 
             <EditText
                 android:id="@+id/etEmail"
@@ -131,7 +165,7 @@
                 android:drawableLeft="@drawable/email"
                 android:drawablePadding="15dp"
                 android:hint="E-mail"
-                android:textColor="#71db00"
+                android:textColor="#0E87BF"
                 android:textColorHint="#757573"
                 android:inputType="textEmailAddress"
                 android:textIsSelectable="false"
@@ -140,6 +174,11 @@
                 android:theme="@style/Base.Widget.AppCompat.EditText"
                 android:minHeight="50dp"/>
 
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
             <EditText
                 android:id="@+id/etMobile"
                 android:layout_width="match_parent"
@@ -147,8 +186,8 @@
                 android:background="@drawable/member_edittext_background"
                 android:drawableLeft="@drawable/phone"
                 android:drawablePadding="15dp"
-                android:hint="Mobile phone NO."
-                android:textColor="#71db00"
+                android:hint="Phone NO."
+                android:textColor="#0E87BF"
                 android:textColorHint="#757573"
                 android:inputType="phone"
                 android:textSize="20sp"
@@ -156,6 +195,11 @@
                 android:textIsSelectable="false"
                 android:theme="@style/Base.Widget.AppCompat.EditText"
                 android:minHeight="50dp"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
 
             <TextView
                 android:layout_width="wrap_content"

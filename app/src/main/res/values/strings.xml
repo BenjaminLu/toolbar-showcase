@@ -16,4 +16,5 @@
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
     <color name="colorPrimary">#ff303030</color>
+    <color name="material_grey_200">#5BBA1E</color>
 </resources>
